@@ -4,17 +4,17 @@ import { Link } from 'react-router-dom';
 function Profile() {
   return (
     <>
-      <h1>Profielpagina</h1>
+      <h1>Perfil personal</h1>
       <section>
-        <h2>Gegevens</h2>
-        <p><strong>Gebruikersnaam:</strong> hardcoded-test</p>
+        <h2>Datos personales</h2>
+        <p><strong>Nombre de usuario:</strong> hardcoded-test</p>
         <p><strong>Email:</strong> hardcoded@test.com</p>
       </section>
       <section>
-        <h2>Strikt geheime profiel-content</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias cum debitis dolor dolore fuga id molestias qui quo unde?</p>
+        <h2>Contenido privado personal</h2>
+        <p>Esta es mi vida privada</p>
       </section>
-      <p>Terug naar de <Link to="/">Homepagina</Link></p>
+      <p> <Link to="/">Regresar a pagina principal</Link></p>
     </>
   );
 }
